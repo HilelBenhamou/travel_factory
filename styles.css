@@ -1,0 +1,79 @@
+
+
+.big_container {
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container , .content_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    margin-bottom:10px;
+    padding:20px;
+    background-color: white;
+}
+h3{
+    margin:0;
+    padding:0;
+}
+p{
+    margin:0;
+    padding:0;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+}
+.picture{
+    border-radius: 50%;
+    width:200px;
+}
+.icon{
+    width:15px;
+}
+.position{
+    text-align:center;
+}
+.left_side{
+    margin-top:30px;
+}
+.right_side{
+    margin-top:60px;
+}
+.network{
+    font-weight: bold;
+}
+.modify_delete{
+    align-self:flex-end;
+}
+.trash, .edit{
+    width:10px;
+    cursor: pointer;
+}
+.modify_delete > button{
+    background-color: white;
+    border:none;
+    cursor: pointer;
+
+}
+
+.add{
+    width:200px;
+    height:200px;
+    align-self: center;
+}
+.add_contact{
+    cursor: pointer;
+    background-color:transparent;
+    border:none;
+}
+.click{
+    width: 40px;
+    height:30px;
+    align-self: flex-end;
+}
